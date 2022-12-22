@@ -1,7 +1,9 @@
-# tutorial
+# Tutorial
 
 *** Bikin folder "mysql"
     Di dalam folder src  ".env.example" ubah menjadi ".env"
+    Install composer
+        composer instal
 
 1. Jalankan docker dengan perintah brikut
         docker compose up --build
