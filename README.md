@@ -1,10 +1,15 @@
 # tutorial
 
-0. bikin folder "mysql"
+*** Bikin folder "mysql"
+    Di dalam folder src  ".env.example" ubah menjadi ".env"
 
 1. Jalankan docker dengan perintah brikut
-    docker compose up --build
-    docker-compose up -d
+        docker compose up --build
+        docker-compose up -d
+            Menghentikan progres docker
+                docker compose down
+    Jalankan perintah berikun untuk menyinkron database
+        - docker-compose exec php php /var/www/html/artisan migrate:fresh --seed
 
 2. buka di browser [[localhost:8000](http://localhost:8000/)] untuk menjalankan aplikasi
     login aplikasi
