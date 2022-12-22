@@ -1,5 +1,7 @@
 # tutorial
 
+0. bikin folder "mysql"
+
 1. Jalankan docker dengan perintah brikut
     docker compose up --build
     docker-compose up -d
