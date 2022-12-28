@@ -24,3 +24,13 @@ atau
 ```bash
   docker-compose exec php php /var/www/html/artisan migrate:fresh --seed
 ```
+## Runing aplikasi
+Ketikan kode berikut untuk menjalankan aplikasi di docker
+```bash
+  docker-compose up -d
+```
+setiap melakukan perubahan di docker-compose ketikan kode berikut untuk memperbaharui docker container
+
+```bash
+  docker-compose --build
+``` 
